@@ -10,7 +10,7 @@ import App from "../App";
 const wait = (amount = 0) => {
   return new Promise((resolve) => setTimeout(resolve, amount));
 };
-
+//teste
 const actWait = async (amount = 0) => {
   await act(async () => {
     await wait(amount);
